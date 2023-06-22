@@ -27,7 +27,6 @@ It is possible, but then docker will have to be emulated with Rosetta.
         ```bash
         
         docker run -it \
-            --rm \
             --hostname="$(hostname)" \
             --publish="3389:3389/tcp" \
             --name="remote-desktop" \

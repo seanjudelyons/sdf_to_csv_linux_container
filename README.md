@@ -1,5 +1,3 @@
-# Containerised solution for .sdf conversion
-
 ### Summary
 
 The SQLCE `.sdf` files are a Microsoft proprietary filetype.  This repo describes how to write a Windows file system inside a Linux Docker container for `.sdf` to `.csv` conversion.  This is useful for training and deploying newer multi-class classification models such as YOLO v5 with older video recording software.
